@@ -1,0 +1,337 @@
+INFO:     Started server process [11180]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50243 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50244 - "GET /img/logo2.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50243 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Finished server process [11180]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [6336]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49818 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49819 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49819 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49820 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49831 - "GET /boletos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49831 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49831 - "GET /relatorio HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49837 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49869 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49870 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49870 - "GET /boletos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49871 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49871 - "GET /relatorio HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49874 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49874 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49878 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49878 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49880 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49880 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49897 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49898 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49898 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49899 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49899 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49923 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49931 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49931 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49970 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49971 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49971 - "GET / HTTP/1.1" 200 OK
+INFO:     Started server process [5360]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Finished server process [5360]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [4392]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53014 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53014 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53015 - "GET /img/logo2.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60078 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60085 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49443 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49473 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49474 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49475 - "POST /login HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Finished server process [4392]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [4388]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Finished server process [4388]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [4232]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50025 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50041 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50042 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:50042 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50043 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50050 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50050 - "GET /boletos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50050 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50050 - "GET /relatorio HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50052 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65397 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:65397 - "GET / HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Finished server process [4232]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [4236]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Finished server process [4236]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [4364]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51605 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51605 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51606 - "GET /img/logo2.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51607 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51613 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51615 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51617 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51619 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:51619 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51621 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51631 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51638 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51638 - "GET /boletos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51638 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51638 - "GET /relatorio HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51644 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49450 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:49450 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58411 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58411 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58412 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:58412 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58430 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58431 - "GET /boletos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58431 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58431 - "GET /relatorio HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58432 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61424 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:61424 - "GET / HTTP/1.1" 200 OK
+INFO:     Started server process [1148]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61409 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61409 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61410 - "GET /img/logo2.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61411 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61418 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61424 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:61424 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61441 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61455 - "GET /boletos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61508 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61509 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61843 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53565 - "GET / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:53565 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53565 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53566 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53567 - "GET / HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:53567 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Finished server process [1148]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [4604]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started server process [4568]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54785 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54785 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54786 - "GET /img/logo2.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54786 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54792 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:54792 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54804 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54815 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54815 - "GET /boletos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54910 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54911 - "GET /entradas HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51692 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:51692 - "GET / HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Finished server process [4568]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [4532]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started server process [4384]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started server process [4512]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52663 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52663 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52662 - "GET /img/logo2.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52667 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52673 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52680 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52684 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52687 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52745 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:52745 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52807 - "GET /boletos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53079 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:53079 - "GET / HTTP/1.1" 200 OK
+INFO:     Started server process [4552]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Finished server process [4552]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [4672]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51032 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51044 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /img/logo2.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51059 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51060 - "POST /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51061 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:51061 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51066 - "GET /logout HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:51066 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64634 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64634 - "POST /login HTTP/1.1" 303 See Other
+INFO:     127.0.0.1:64634 - "GET /dashboard HTTP/1.1" 200 OK
+INFO:     Started server process [4408]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Finished server process [4408]
+ERROR:    Traceback (most recent call last):
+  File "C:\Maranata\venv\Lib\site-packages\starlette\routing.py", line 686, in lifespan
+    await receive()
+  File "C:\Maranata\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EVAILSON MORAES\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [4500]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52505 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52505 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52506 - "GET /img/logo2.png HTTP/1.1" 200 OK

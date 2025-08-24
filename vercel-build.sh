@@ -23,6 +23,10 @@ cp -r static/* ./static/ 2>/dev/null || echo "Nenhum arquivo estático para copi
 echo "Copiando templates..."
 cp -r templates/* ./templates/ 2>/dev/null || echo "Nenhum template para copiar"
 
+# Executar migração do banco de dados
+echo "Executando migração do banco de dados..."
+python migrations.py
+
 # Remover arquivos desnecessários
 echo "Limpando arquivos desnecessários..."
 find . -type d -name "__pycache__" -exec rm -r {} +
